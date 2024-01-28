@@ -1,0 +1,22 @@
+Package: ispaadis
+Version: 0.1-5
+Date: 2024-01-28
+Title: A Collection of Functions for Analysing InterSpread Plus and AADIS Simulation Outputs
+Author: Mark Stevenson <mark.stevenson1@unimelb.edu.au>, Simon Firestone, Richard Bradhurst, Robert Sanson, Graeme Garner, Matthew Edwards.
+Description: A suite of functions for analysing InterSpread Plus and AADIS simulation outputs.
+Maintainer: Mark Stevenson <mark.stevenson1@unimelb.edu.au>
+Depends: R (>= 3.5.0)
+Imports: 
+   dplyr,
+   furrr,
+   future,
+   mc2d,
+   RColorBrewer, 
+   sf,
+   sp, 
+   spatstat,
+   stats,
+   stringr,
+   tidyr
+License: GPL (>= 2)
+URL: https://mvs.unimelb.edu.au/research/groups/veterinary-epidemiology-melbourne
